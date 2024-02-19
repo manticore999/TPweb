@@ -10,12 +10,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2em; /* adds space between h1 and the input boxes */
+    margin-top: 2em; 
   }
   
   input[type="color"],
   input[type="number"],
   select {
-    border-radius: 5px; /* smoothing the borders */
-    margin: 0 5px; /* adds space between the boxes */
+    border-radius: 5px; 
+    margin: 0 5px; 
   }

@@ -4,9 +4,9 @@ function main() {
     var z = document.getElementById("third");
     var n = document.getElementById("fourth");
 
-    x.addEventListener("click", function () {
+    x.onclick = () => {
         x.style.color = "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")";
-    });
+    };
 
     y.addEventListener("click", function () {
         y.style.color = "rgb(" + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + "," + Math.floor(Math.random() * 256) + ")";
